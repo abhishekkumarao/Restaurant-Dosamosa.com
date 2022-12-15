@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 :root {
     --navbar-height: 58px;
 }
@@ -115,14 +119,14 @@
 }
 
 /*Services section*/
-.service-container {
+#services {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-#services {
+#services-box {
     display: flex;
     margin: 34px;
     flex-direction: row-reverse;
@@ -150,7 +154,7 @@
 
 /*application-section*/
 
-.application {
+#application {
     display: flex;
     margin: 34px;
     flex-direction: column;
